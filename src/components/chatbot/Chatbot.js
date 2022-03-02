@@ -1,4 +1,3 @@
-import { text } from 'body-parser'
 import React, { useEffect, useState } from 'react'
 import {Modal,Button ,Form,Row,Col,Container} from 'react-bootstrap'
 import './Chatbot.css'
