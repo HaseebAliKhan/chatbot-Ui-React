@@ -1,0 +1,50 @@
+.no_de:focus {
+    
+    outline: none !important;
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .no_de{
+    background-color: transparent !important;
+    border: 0px  solid !important;
+  }
+
+  .butn:focus{
+    outline: none !important;
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .butn{
+    background-color: transparent !important;
+    border: 0px  solid !important;
+    border-radius: 60px !important;
+    
+  }
+
+  .img{
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .chat_body{
+    height: 400px !important;
+    width: 475px !important;
+    float: right !important;
+  }
+  .chat_div{
+    height: 100% !important;
+    width: 100% !important;
+    overflow: auto !important;
+  }
+
+  .in{
+    padding: 14px !important;
+  }
+
+  .cunt{
+
+    
+    
+  }

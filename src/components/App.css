@@ -1,0 +1,41 @@
+.loc{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 130px;
+  
+}
+.bt:focus{
+    outline: none !important;
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .bt{
+    background-color: transparent !important;
+    border: 0px  solid !important;
+    border-radius: 60px !important;
+    
+  }
+
+.bt:active{
+    text-decoration-line: none !important;
+    text-decoration: none !important;
+
+}
+.chat{
+    width: 60px;
+    height: 60px;
+  
+}
+
+.foot{
+  position: fixed ;
+  bottom: 50px ;
+  right:90px ;
+
+  border: none;
+  background-color: transparent;
+
+}
