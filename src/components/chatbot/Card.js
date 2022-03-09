@@ -1,23 +1,29 @@
 import React from 'react';
+import {Card, Button} from 'react-bootstrap'
+import img from './send blue.png'
 
-function Card(props){
-<div style={{float:'left', paddingRight:30, width: 270}}>
+
+function Cards(props){
+  console.log(props.url);
+  return(
+
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={props.payload.fields.image.stringValue} />
+  <Card.Img variant="top" src={props.url}/>
   <Card.Body>
-    <Card.Title>{props.payload.fields.header.stringValue}</Card.Title>
+    <Card.Title>Card Title</Card.Title>
     <Card.Text>
-      {}
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">{props.btn}</Button>
   </Card.Body>
 </Card>
 
-</div>
+)
 
 
 }
 
 
 
-export default Card
+export default Cards

@@ -35,21 +35,7 @@ function App(){
 
                 <Route  path='/shop'element={<Shop/>}/>
                     </Routes>
-                    {/* <Container>
-
-  <Row className=''>
-    <Col></Col>
-    <Col md="auto"></Col>
-    <Col xs lg="2 " >
-    
-    </Col>
-  </Row>
-</Container> */}
-              
-
-                    {/* <Button variant="primary" className='bt foot' onClick={() => setModalShow(true)}>
-        <Image src={chat} className='chat  foot'/>
-      </Button> */}
+                   
                 
                 <button className='foot' onClick={() => setModalShow(true)}>
                     <img src={chat} className='chat '/>

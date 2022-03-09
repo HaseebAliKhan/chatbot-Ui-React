@@ -9,7 +9,7 @@ function Messages(props){
     
     
     return(
-      <Container>
+      <Container fluid>
 {props.speaks === 'bot' &&
 <Row>
     <Col sm={11} xs={11} md={10} className='count'>{props.text}</Col>
@@ -21,8 +21,7 @@ function Messages(props){
     <Col sm={2} xs={2} md={2}><Button variant="info">ME</Button></Col>
     <Col sm={10} xs={10} md={10} className='cunt'>{props.text}</Col>
   </Row>}
-
-      </Container>
+    </Container>
     )
 }
 
